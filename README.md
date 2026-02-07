@@ -1,2 +1,8 @@
-# MVC2-2026
-CS-KMITL MVC Exit Exam
+```
+npm install
+npm run dev
+```
+
+```
+open http://localhost:3000
+```

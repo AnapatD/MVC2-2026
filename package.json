@@ -1,0 +1,22 @@
+{
+  "name": "MVC2-2026",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "db:push": "drizzle-kit push"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.9",
+    "dotenv": "^17.2.4",
+    "drizzle-orm": "^0.45.1",
+    "hono": "^4.11.8",
+    "postgres": "^3.4.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1",
+    "typescript": "^5.8.3"
+  }
+}
